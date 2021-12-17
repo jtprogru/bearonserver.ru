@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Bear on Server
+        title Мишка на Сервере
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
@@ -36,53 +36,56 @@ html(lang='en')
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.text-uppercase.ms-auto.py-4.py-lg-0
                         li.nav-item
-                            a.nav-link(href='#services') Services
+                            a.nav-link(href='#services') Услуги
                         //- li.nav-item
                         //-     a.nav-link(href='#portfolio') Portfolio
                         //- li.nav-item
                         //-     a.nav-link(href='#about') About
                         li.nav-item
-                            a.nav-link(href='#team') Team
+                            a.nav-link(href='#team') Команда
                         //- li.nav-item
                         //-     a.nav-link(href='#contact') Contact
         // Masthead
         header.masthead
             .container
-                .masthead-subheading Welcome To Team!
-                .masthead-heading.text-uppercase It's Nice To Meet You
-                a.btn.btn-primary.btn-xl.text-uppercase(href='#services') Tell Me More
+                .masthead-subheading Добро пожаловать в команду!
+                .masthead-heading.text-uppercase Мишка на Сервере
+                //- a.btn.btn-primary.btn-xl.text-uppercase(href='#services') Чем мы занимаемся
 
         // Services
         section#services.page-section
             .container
                 .text-center
-                    h2.section-heading.text-uppercase Services
-                    h3.section-subheading.text-muted Our team can provide the following services.
+                    h2.section-heading.text-uppercase Услуги
+                    h3.section-subheading.text-muted Наша команда готова оказывать следующие услуги.
                 .row.text-center
                     .col-md-4
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
                             i.fas.fa-shopping-cart.fa-stack-1x.fa-inverse
-                        h4.my-3 Education Golang
+                        h4.my-3 Обучение Golang
                         p.text-muted
-                            | Our team has extensive practical experience in Golang development.
+                            | Богатый практический опыт разработки на Golang как больших приложений с
+                            | микросервисной архитектурой, так и простых средств автоматизации
+                            | задач разработки и эксплуатации.
                     .col-md-4
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
                             i.fas.fa-laptop.fa-stack-1x.fa-inverse
-                        h4.my-3 Education DevOps/SRE
+                        h4.my-3 Обучение DevOps/SRE
                         p.text-muted
-                            | Our team has extensive practical experience in DevOps and in the
-                            | positions of SRE and Infrastructure Engineer.
+                            | Наша команда имеет богатый практический опыт в DevOps, SRE и построении
+                            | отказоустойчивой инфраструктуры для высоконагруженных веб-приложений
+                            | различной направленности и масштаба.
                     .col-md-4
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
                             i.fas.fa-lock.fa-stack-1x.fa-inverse
                         h4.my-3 Dev&Ops
                         p.text-muted
-                            | Thanks to our extensive experience in the development and operation of high-load services,
-                            | we are ready to help you survive Black Friday, scale your application to specific
-                            | situations or design the architecture of the service and prepare its infrastructure.
+                            | Опыт нашей команды позволит вам пережить резкий рост нагрузки без потерь и простоев,
+                            | вне зависимости от архитектуры вашего приложения и готовности команд разработки и эксплуатации.
+
 
         // Portfolio Grid
         //- section#portfolio.page-section.bg-light
@@ -186,14 +189,14 @@ html(lang='en')
         section#team.page-section.bg-light
             .container
                 .text-center
-                    h2.section-heading.text-uppercase Our Amazing Team
-                    h3.section-subheading.text-muted Our team will exceed your expectations.
+                    h2.section-heading.text-uppercase Наша команда
+                    h3.section-subheading.text-muted Мы способны превзойти ваши ожидания
                 .row.align-items-center
                     .col-lg-6
                         .team-member
                             img.mx-auto.rounded-circle(src='assets/img/team/ivan-anfilatov.jpg', alt='...')
-                            h4 Ivan Anfilatov
-                            p.text-muted Lead Developer
+                            h4 Иван Анфилатов
+                            p.text-muted Co-Founder, Lead Developer
                             a.btn.btn-dark.btn-social.mx-2(href='https://t.me/pero_legiona')
                                 i.fab.fa-telegram
                             a.btn.btn-dark.btn-social.mx-2(href='https://github.com/t0pep0')
@@ -203,8 +206,8 @@ html(lang='en')
                     .col-lg-6
                         .team-member
                             img.mx-auto.rounded-circle(src='assets/img/team/michael-savin.jpg', alt='...')
-                            h4 Michael Savin
-                            p.text-muted Lead DevOps
+                            h4 Михаил Савин
+                            p.text-muted Co-Founder, Lead DevOps
                             a.btn.btn-dark.btn-social.mx-2(href='https://twitter.com/jtprogru')
                                 i.fab.fa-twitter
                             a.btn.btn-dark.btn-social.mx-2(href='https://github.com/jtprogru')
@@ -214,10 +217,10 @@ html(lang='en')
                 .row
                     .col-lg-8.mx-auto.text-center
                         p.large.text-muted
-                            | One day, bears attacked the data center where our service worked and we
-                            | were able to resist the onslaught of a large wild beast.
+                            | Однажды, медведи попали машзалы ЦОД'а в котором рабоали наши сервисы и
+                            | мы сделали так, чтобы пользователи нашего сервиса не пострадали.
                         p.large
-                            | "A bear on the server is an ordinary event that you need to be prepared for"
+                            | "Медведь на Сервере это рядовое событие и к нему просто нужно быть готовым"
 
         // Clients
         //- div.py-5
