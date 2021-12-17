@@ -37,14 +37,14 @@ html(lang='en')
                     ul.navbar-nav.text-uppercase.ms-auto.py-4.py-lg-0
                         li.nav-item
                             a.nav-link(href='#services') Services
-                        li.nav-item
-                            a.nav-link(href='#portfolio') Portfolio
-                        li.nav-item
-                            a.nav-link(href='#about') About
+                        //- li.nav-item
+                        //-     a.nav-link(href='#portfolio') Portfolio
+                        //- li.nav-item
+                        //-     a.nav-link(href='#about') About
                         li.nav-item
                             a.nav-link(href='#team') Team
-                        li.nav-item
-                            a.nav-link(href='#contact') Contact
+                        //- li.nav-item
+                        //-     a.nav-link(href='#contact') Contact
         // Masthead
         header.masthead
             .container
@@ -65,7 +65,7 @@ html(lang='en')
                             i.fas.fa-shopping-cart.fa-stack-1x.fa-inverse
                         h4.my-3 Education Golang
                         p.text-muted
-                            | Our team has a lot of experience in Golang development.
+                            | Our team has extensive practical experience in Golang development.
                     .col-md-4
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
@@ -85,35 +85,35 @@ html(lang='en')
                             | situations or design the architecture of the service and prepare its infrastructure.
 
         // Portfolio Grid
-        section#portfolio.page-section.bg-light
-            .container
-                .text-center
-                    h2.section-heading.text-uppercase Portfolio
-                    h3.section-subheading.text-muted We did it and are grateful to us.
-                .row
-                    .col-lg-4.col-sm-6.mb-4
-                        // Portfolio item 1
-                        .portfolio-item
-                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal1')
-                                .portfolio-hover
-                                    .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/1.jpg', alt='...')
-                            .portfolio-caption
-                                .portfolio-caption-heading Threads
-                                .portfolio-caption-subheading.text-muted Illustration
-                    .col-lg-4.col-sm-6.mb-4
-                        // Portfolio item 2
-                        .portfolio-item
-                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal2')
-                                .portfolio-hover
-                                    .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/2.jpg', alt='...')
-                            .portfolio-caption
-                                .portfolio-caption-heading Explore
-                                .portfolio-caption-subheading.text-muted Graphic Design
-                    .col-lg-4.col-sm-6.mb-4
+        //- section#portfolio.page-section.bg-light
+        //-     .container
+        //-         .text-center
+        //-             h2.section-heading.text-uppercase Portfolio
+        //-             h3.section-subheading.text-muted We did it and are grateful to us.
+        //-         .row
+        //-             .col-lg-4.col-sm-6.mb-4
+        //-                 // Portfolio item 1
+        //-                 .portfolio-item
+        //-                     a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal1')
+        //-                         .portfolio-hover
+        //-                             .portfolio-hover-content
+        //-                                 i.fas.fa-plus.fa-3x
+        //-                         img.img-fluid(src='assets/img/portfolio/1.jpg', alt='...')
+        //-                     .portfolio-caption
+        //-                         .portfolio-caption-heading Threads
+        //-                         .portfolio-caption-subheading.text-muted Illustration
+        //-             .col-lg-4.col-sm-6.mb-4
+        //-                 // Portfolio item 2
+        //-                 .portfolio-item
+        //-                     a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal2')
+        //-                         .portfolio-hover
+        //-                             .portfolio-hover-content
+        //-                                 i.fas.fa-plus.fa-3x
+        //-                         img.img-fluid(src='assets/img/portfolio/2.jpg', alt='...')
+        //-                     .portfolio-caption
+        //-                         .portfolio-caption-heading Explore
+        //-                         .portfolio-caption-subheading.text-muted Graphic Design
+        //-             .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 3
                         .portfolio-item
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal3')
@@ -191,136 +191,139 @@ html(lang='en')
                 .row.align-items-center
                     .col-lg-6
                         .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/1.jpg', alt='...')
+                            img.mx-auto.rounded-circle(src='assets/img/team/ivan-anfilatov.jpg', alt='...')
                             h4 Ivan Anfilatov
                             p.text-muted Lead Developer
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
-                                i.fab.fa-twitter
+                            a.btn.btn-dark.btn-social.mx-2(href='https://t.me/pero_legiona')
+                                i.fab.fa-telegram
                             a.btn.btn-dark.btn-social.mx-2(href='https://github.com/t0pep0')
                                 i.fab.fa-github
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
+                            a.btn.btn-dark.btn-social.mx-2(href='https://t.me/pero_legiona')
                                 i.fab.fa-linkedin-in
                     .col-lg-6
                         .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/3.jpg', alt='...')
+                            img.mx-auto.rounded-circle(src='assets/img/team/michael-savin.jpg', alt='...')
                             h4 Michael Savin
                             p.text-muted Lead DevOps
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
+                            a.btn.btn-dark.btn-social.mx-2(href='https://twitter.com/jtprogru')
                                 i.fab.fa-twitter
                             a.btn.btn-dark.btn-social.mx-2(href='https://github.com/jtprogru')
                                 i.fab.fa-github
-                            a.btn.btn-dark.btn-social.mx-2(href='#!')
+                            a.btn.btn-dark.btn-social.mx-2(href='https://www.linkedin.com/in/jtprogru')
                                 i.fab.fa-linkedin-in
                 .row
                     .col-lg-8.mx-auto.text-center
                         p.large.text-muted
-                            | You can even contact us for a full consultation or ask a question and we will answer it for you.
+                            | One day, bears attacked the data center where our service worked and we
+                            | were able to resist the onslaught of a large wild beast.
+                        p.large
+                            | "A bear on the server is an ordinary event that you need to be prepared for"
 
         // Clients
-        div.py-5
-            .container
-                .row.align-items-center
-                    .col-md-3.col-sm-6.my-3
-                        a(href='#!')
-                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/microsoft.svg', alt='...')
-                    .col-md-3.col-sm-6.my-3
-                        a(href='#!')
-                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/google.svg', alt='...')
-                    .col-md-3.col-sm-6.my-3
-                        a(href='#!')
-                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/facebook.svg', alt='...')
-                    .col-md-3.col-sm-6.my-3
-                        a(href='#!')
-                            img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/ibm.svg', alt='...')
+        //- div.py-5
+        //-     .container
+        //-         .row.align-items-center
+        //-             .col-md-3.col-sm-6.my-3
+        //-                 a(href='#!')
+        //-                     img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/microsoft.svg', alt='...')
+        //-             .col-md-3.col-sm-6.my-3
+        //-                 a(href='#!')
+        //-                     img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/google.svg', alt='...')
+        //-             .col-md-3.col-sm-6.my-3
+        //-                 a(href='#!')
+        //-                     img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/facebook.svg', alt='...')
+        //-             .col-md-3.col-sm-6.my-3
+        //-                 a(href='#!')
+        //-                     img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/ibm.svg', alt='...')
 
         // Contact
-        section#contact.page-section
-            .container
-                .text-center
-                    h2.section-heading.text-uppercase Contact Us
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+        //- section#contact.page-section
+        //-     .container
+        //-         .text-center
+        //-             h2.section-heading.text-uppercase Contact Us
+        //-             h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
 
-                // * * * * * * * * * * * * * * *
-                // * * SB Forms Contact Form * *
-                // * * * * * * * * * * * * * * *
+        //-         // * * * * * * * * * * * * * * *
+        //-         // * * SB Forms Contact Form * *
+        //-         // * * * * * * * * * * * * * * *
 
-                // This form is pre-integrated with SB Forms.
-                // To make this form functional, sign up at
-                // https://startbootstrap.com/solution/contact-forms
-                // to get an API token!
+        //-         // This form is pre-integrated with SB Forms.
+        //-         // To make this form functional, sign up at
+        //-         // https://startbootstrap.com/solution/contact-forms
+        //-         // to get an API token!
 
-                form#contactForm(data-sb-form-api-token='API_TOKEN')
-                    .row.align-items-stretch.mb-5
-                        .col-md-6
-                            .form-group
+        //-         form#contactForm(data-sb-form-api-token='API_TOKEN')
+        //-             .row.align-items-stretch.mb-5
+        //-                 .col-md-6
+        //-                     .form-group
 
-                                // Name input
-                                input#name.form-control(
-                                    type='text',
-                                    placeholder='Your Name *',
-                                    data-sb-validations='required'
-                                )
-                                .invalid-feedback(data-sb-feedback='name:required')
-                                    | A name is required.
+        //-                         // Name input
+        //-                         input#name.form-control(
+        //-                             type='text',
+        //-                             placeholder='Your Name *',
+        //-                             data-sb-validations='required'
+        //-                         )
+        //-                         .invalid-feedback(data-sb-feedback='name:required')
+        //-                             | A name is required.
 
-                            .form-group
+        //-                     .form-group
 
-                                // Email address input
-                                input#email.form-control(
-                                    type='email',
-                                    placeholder='Your Email *',
-                                    data-sb-validations='required,email'
-                                )
-                                .invalid-feedback(data-sb-feedback='email:required')
-                                    | An email is required.
-                                .invalid-feedback(data-sb-feedback='email:email')
-                                    | Email is not valid.
+        //-                         // Email address input
+        //-                         input#email.form-control(
+        //-                             type='email',
+        //-                             placeholder='Your Email *',
+        //-                             data-sb-validations='required,email'
+        //-                         )
+        //-                         .invalid-feedback(data-sb-feedback='email:required')
+        //-                             | An email is required.
+        //-                         .invalid-feedback(data-sb-feedback='email:email')
+        //-                             | Email is not valid.
 
-                            .form-group.mb-md-0
+        //-                     .form-group.mb-md-0
 
-                                // Phone number input
-                                input#phone.form-control(
-                                    type='tel',
-                                    placeholder='Your Phone *',
-                                    data-sb-validations='required'
-                                )
-                                .invalid-feedback(data-sb-feedback='phone:required')
-                                    | A phone number is required.
+        //-                         // Phone number input
+        //-                         input#phone.form-control(
+        //-                             type='tel',
+        //-                             placeholder='Your Phone *',
+        //-                             data-sb-validations='required'
+        //-                         )
+        //-                         .invalid-feedback(data-sb-feedback='phone:required')
+        //-                             | A phone number is required.
 
-                        .col-md-6
-                            .form-group.form-group-textarea.mb-md-0
+        //-                 .col-md-6
+        //-                     .form-group.form-group-textarea.mb-md-0
 
-                                // Message input
-                                textarea#message.form-control(
-                                    placeholder='Your Message *',
-                                    data-sb-validations='required'
-                                )
-                                .invalid-feedback(data-sb-feedback='message:required')
-                                    | A message is required.
+        //-                         // Message input
+        //-                         textarea#message.form-control(
+        //-                             placeholder='Your Message *',
+        //-                             data-sb-validations='required'
+        //-                         )
+        //-                         .invalid-feedback(data-sb-feedback='message:required')
+        //-                             | A message is required.
 
-                    // Submit success message
-                    //
-                    // This is what your users will see when the form
-                    // has successfully submitted
+        //-             // Submit success message
+        //-             //
+        //-             // This is what your users will see when the form
+        //-             // has successfully submitted
 
-                    #submitSuccessMessage.d-none
-                        .text-center.text-white.mb-3
-                            .fw-bolder Form submission successful!
-                            | To activate this form, sign up at
-                            br
-                            a(href='https://startbootstrap.com/solution/contact-forms') https://startbootstrap.com/solution/contact-forms
+        //-             #submitSuccessMessage.d-none
+        //-                 .text-center.text-white.mb-3
+        //-                     .fw-bolder Form submission successful!
+        //-                     | To activate this form, sign up at
+        //-                     br
+        //-                     a(href='https://startbootstrap.com/solution/contact-forms') https://startbootstrap.com/solution/contact-forms
 
-                    // Submit error message
-                    //
-                    // This is what your users will see when there is
-                    // an error submitting the form
+        //-             // Submit error message
+        //-             //
+        //-             // This is what your users will see when there is
+        //-             // an error submitting the form
 
-                    #submitErrorMessage.d-none
-                        .text-center.text-danger.mb-3 Error sending message!
+        //-             #submitErrorMessage.d-none
+        //-                 .text-center.text-danger.mb-3 Error sending message!
 
-                    // Submit Button
-                    .text-center
-                        button#submitButton.btn.btn-primary.btn-xl.text-uppercase.disabled(type='submit') Send Message
+        //-             // Submit Button
+        //-             .text-center
+        //-                 button#submitButton.btn.btn-primary.btn-xl.text-uppercase.disabled(type='submit') Send Message
 
         // Footer
         footer.footer.py-4
@@ -329,20 +332,20 @@ html(lang='en')
                     .col-lg-4.text-lg-start
                         | Copyright &copy; Bear on Server 2021
                     .col-lg-4.my-3.my-lg-0
-                        a.btn.btn-dark.btn-social.mx-2(href='#!')
+                        a.btn.btn-dark.btn-social.mx-2(href='https://twitter.com/jtprogru')
                             i.fab.fa-twitter
                         a.btn.btn-dark.btn-social.mx-2(href='https://github.com/bearonserver')
                             i.fab.fa-github
-                        //- a.btn.btn-dark.btn-social.mx-2(href='#!')
-                        //-     i.fab.fa-linkedin-in
+                        a.btn.btn-dark.btn-social.mx-2(href='https://t.me/jtprogru_channel')
+                            i.fab.fa-telegram
                     .col-lg-4.text-lg-end
                         a.link-dark.text-decoration-none.me-3(href='#!') Privacy Policy
                         a.link-dark.text-decoration-none(href='#!') Terms of Use
 
         // Portfolio Modals
-        include includes/portfolio-modal-1
-        include includes/portfolio-modal-2
-        include includes/portfolio-modal-3
+        //- include includes/portfolio-modal-1
+        //- include includes/portfolio-modal-2
+        //- include includes/portfolio-modal-3
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
