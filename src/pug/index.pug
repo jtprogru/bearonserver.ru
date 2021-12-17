@@ -31,7 +31,7 @@ html(lang='en')
                 a.navbar-brand(href='#page-top')
                     img(src='assets/img/navbar-logo.svg', alt='...')
                 button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
-                    | Menu
+                    | Меню
                     i.fas.fa-bars.ms-1
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.text-uppercase.ms-auto.py-4.py-lg-0
@@ -48,9 +48,9 @@ html(lang='en')
         // Masthead
         header.masthead
             .container
-                .masthead-subheading Добро пожаловать в команду!
+                .masthead-subheading Добро пожаловать в команду
                 .masthead-heading.text-uppercase Мишка на Сервере
-                //- a.btn.btn-primary.btn-xl.text-uppercase(href='#services') Чем мы занимаемся
+                //- a.btn.btn-primary.btn-xl.text-uppercase(href='#services') Чем мы занимаемся?
 
         // Services
         section#services.page-section
@@ -81,7 +81,7 @@ html(lang='en')
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
                             i.fas.fa-lock.fa-stack-1x.fa-inverse
-                        h4.my-3 Dev&Ops
+                        h4.my-3 Dev&amp;Ops
                         p.text-muted
                             | Опыт нашей команды позволит вам пережить резкий рост нагрузки без потерь и простоев,
                             | вне зависимости от архитектуры вашего приложения и готовности команд разработки и эксплуатации.
@@ -89,34 +89,34 @@ html(lang='en')
 
         // Portfolio Grid
         //- section#portfolio.page-section.bg-light
-        //-     .container
-        //-         .text-center
-        //-             h2.section-heading.text-uppercase Portfolio
-        //-             h3.section-subheading.text-muted We did it and are grateful to us.
-        //-         .row
-        //-             .col-lg-4.col-sm-6.mb-4
-        //-                 // Portfolio item 1
-        //-                 .portfolio-item
-        //-                     a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal1')
-        //-                         .portfolio-hover
-        //-                             .portfolio-hover-content
-        //-                                 i.fas.fa-plus.fa-3x
-        //-                         img.img-fluid(src='assets/img/portfolio/1.jpg', alt='...')
-        //-                     .portfolio-caption
-        //-                         .portfolio-caption-heading Threads
-        //-                         .portfolio-caption-subheading.text-muted Illustration
-        //-             .col-lg-4.col-sm-6.mb-4
-        //-                 // Portfolio item 2
-        //-                 .portfolio-item
-        //-                     a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal2')
-        //-                         .portfolio-hover
-        //-                             .portfolio-hover-content
-        //-                                 i.fas.fa-plus.fa-3x
-        //-                         img.img-fluid(src='assets/img/portfolio/2.jpg', alt='...')
-        //-                     .portfolio-caption
-        //-                         .portfolio-caption-heading Explore
-        //-                         .portfolio-caption-subheading.text-muted Graphic Design
-        //-             .col-lg-4.col-sm-6.mb-4
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Portfolio
+                    h3.section-subheading.text-muted We did it and are grateful to us.
+                .row
+                    .col-lg-4.col-sm-6.mb-4
+                        // Portfolio item 1
+                        .portfolio-item
+                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal1')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/1.jpg', alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Threads
+                                .portfolio-caption-subheading.text-muted Illustration
+                    .col-lg-4.col-sm-6.mb-4
+                        // Portfolio item 2
+                        .portfolio-item
+                            a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal2')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/portfolio/2.jpg', alt='...')
+                            .portfolio-caption
+                                .portfolio-caption-heading Explore
+                                .portfolio-caption-subheading.text-muted Graphic Design
+                    .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 3
                         .portfolio-item
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal3')
@@ -133,8 +133,8 @@ html(lang='en')
         //- section#about.page-section
             .container
                 .text-center
-                    h2.section-heading.text-uppercase About
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h2.section-heading.text-uppercase О нас
+                    h3.section-subheading.text-muted Краткий экскурс в нашу историю.
                 ul.timeline
                     li
                         .timeline-image
@@ -217,116 +217,11 @@ html(lang='en')
                 .row
                     .col-lg-8.mx-auto.text-center
                         p.large.text-muted
-                            | Однажды, медведи попали машзалы ЦОД'а в котором рабоали наши сервисы и
-                            | мы сделали так, чтобы пользователи нашего сервиса не пострадали.
+                            | Однажды, медведи попали в машзалы ЦОД'а где работали наши сервисы и
+                            | мы сделали всё, чтобы и пользователи нашего сервиса не заметили проблем,
+                            | и медведи не пострадали.
                         p.large
                             | "Медведь на Сервере это рядовое событие и к нему просто нужно быть готовым"
-
-        // Clients
-        //- div.py-5
-        //-     .container
-        //-         .row.align-items-center
-        //-             .col-md-3.col-sm-6.my-3
-        //-                 a(href='#!')
-        //-                     img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/microsoft.svg', alt='...')
-        //-             .col-md-3.col-sm-6.my-3
-        //-                 a(href='#!')
-        //-                     img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/google.svg', alt='...')
-        //-             .col-md-3.col-sm-6.my-3
-        //-                 a(href='#!')
-        //-                     img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/facebook.svg', alt='...')
-        //-             .col-md-3.col-sm-6.my-3
-        //-                 a(href='#!')
-        //-                     img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/ibm.svg', alt='...')
-
-        // Contact
-        //- section#contact.page-section
-        //-     .container
-        //-         .text-center
-        //-             h2.section-heading.text-uppercase Contact Us
-        //-             h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
-
-        //-         // * * * * * * * * * * * * * * *
-        //-         // * * SB Forms Contact Form * *
-        //-         // * * * * * * * * * * * * * * *
-
-        //-         // This form is pre-integrated with SB Forms.
-        //-         // To make this form functional, sign up at
-        //-         // https://startbootstrap.com/solution/contact-forms
-        //-         // to get an API token!
-
-        //-         form#contactForm(data-sb-form-api-token='API_TOKEN')
-        //-             .row.align-items-stretch.mb-5
-        //-                 .col-md-6
-        //-                     .form-group
-
-        //-                         // Name input
-        //-                         input#name.form-control(
-        //-                             type='text',
-        //-                             placeholder='Your Name *',
-        //-                             data-sb-validations='required'
-        //-                         )
-        //-                         .invalid-feedback(data-sb-feedback='name:required')
-        //-                             | A name is required.
-
-        //-                     .form-group
-
-        //-                         // Email address input
-        //-                         input#email.form-control(
-        //-                             type='email',
-        //-                             placeholder='Your Email *',
-        //-                             data-sb-validations='required,email'
-        //-                         )
-        //-                         .invalid-feedback(data-sb-feedback='email:required')
-        //-                             | An email is required.
-        //-                         .invalid-feedback(data-sb-feedback='email:email')
-        //-                             | Email is not valid.
-
-        //-                     .form-group.mb-md-0
-
-        //-                         // Phone number input
-        //-                         input#phone.form-control(
-        //-                             type='tel',
-        //-                             placeholder='Your Phone *',
-        //-                             data-sb-validations='required'
-        //-                         )
-        //-                         .invalid-feedback(data-sb-feedback='phone:required')
-        //-                             | A phone number is required.
-
-        //-                 .col-md-6
-        //-                     .form-group.form-group-textarea.mb-md-0
-
-        //-                         // Message input
-        //-                         textarea#message.form-control(
-        //-                             placeholder='Your Message *',
-        //-                             data-sb-validations='required'
-        //-                         )
-        //-                         .invalid-feedback(data-sb-feedback='message:required')
-        //-                             | A message is required.
-
-        //-             // Submit success message
-        //-             //
-        //-             // This is what your users will see when the form
-        //-             // has successfully submitted
-
-        //-             #submitSuccessMessage.d-none
-        //-                 .text-center.text-white.mb-3
-        //-                     .fw-bolder Form submission successful!
-        //-                     | To activate this form, sign up at
-        //-                     br
-        //-                     a(href='https://startbootstrap.com/solution/contact-forms') https://startbootstrap.com/solution/contact-forms
-
-        //-             // Submit error message
-        //-             //
-        //-             // This is what your users will see when there is
-        //-             // an error submitting the form
-
-        //-             #submitErrorMessage.d-none
-        //-                 .text-center.text-danger.mb-3 Error sending message!
-
-        //-             // Submit Button
-        //-             .text-center
-        //-                 button#submitButton.btn.btn-primary.btn-xl.text-uppercase.disabled(type='submit') Send Message
 
         // Footer
         footer.footer.py-4
