@@ -29,3 +29,5 @@ start: build
 start-debug: build
 	node scripts/start-debug.js
 
+npm-install:
+	npm install
