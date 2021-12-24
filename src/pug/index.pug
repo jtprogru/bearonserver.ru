@@ -37,8 +37,8 @@ html(lang='en')
                     ul.navbar-nav.text-uppercase.ms-auto.py-4.py-lg-0
                         li.nav-item
                             a.nav-link(href='#services') Услуги
-                        //- li.nav-item
-                        //-     a.nav-link(href='#portfolio') Portfolio
+                        li.nav-item
+                            a.nav-link(href='#portfolio') Портфолио
                         //- li.nav-item
                         //-     a.nav-link(href='#about') About
                         li.nav-item
@@ -88,11 +88,11 @@ html(lang='en')
 
 
         // Portfolio Grid
-        //- section#portfolio.page-section.bg-light
+        section#portfolio.page-section.bg-light
             .container
                 .text-center
-                    h2.section-heading.text-uppercase Portfolio
-                    h3.section-subheading.text-muted We did it and are grateful to us.
+                    h2.section-heading.text-uppercase Портфолио
+                    h3.section-subheading.text-muted Некоторые из проектов в которых ключевую роль играли члены нашей команды.
                 .row
                     .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 1
@@ -101,11 +101,11 @@ html(lang='en')
                                 .portfolio-hover
                                     .portfolio-hover-content
                                         i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/1.jpg', alt='...')
+                                img.img-fluid(src='assets/img/portfolio/SammyBeauty/main.png', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Threads
-                                .portfolio-caption-subheading.text-muted Illustration
-                    .col-lg-4.col-sm-6.mb-4
+                                .portfolio-caption-heading SammyBeauty
+                                .portfolio-caption-subheading.text-muted Инфраструктура
+                    //- .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 2
                         .portfolio-item
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal2')
@@ -116,7 +116,7 @@ html(lang='en')
                             .portfolio-caption
                                 .portfolio-caption-heading Explore
                                 .portfolio-caption-subheading.text-muted Graphic Design
-                    .col-lg-4.col-sm-6.mb-4
+                    //- .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 3
                         .portfolio-item
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal3')
@@ -241,7 +241,7 @@ html(lang='en')
                         a.link-dark.text-decoration-none(href='#!') Terms of Use
 
         // Portfolio Modals
-        //- include includes/portfolio-modal-1
+        include includes/portfolio-modal-1
         //- include includes/portfolio-modal-2
         //- include includes/portfolio-modal-3
 
