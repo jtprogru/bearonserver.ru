@@ -94,7 +94,7 @@ html(lang='en')
                     h2.section-heading.text-uppercase Портфолио
                     h3.section-subheading.text-muted Некоторые из проектов в которых ключевую роль играли члены нашей команды.
                 .row
-                    .col-lg-4.col-sm-6.mb-4
+                    .col-lg-6.col-sm-6.mb-4
                         // Portfolio item 1
                         .portfolio-item
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal1')
@@ -105,17 +105,17 @@ html(lang='en')
                             .portfolio-caption
                                 .portfolio-caption-heading SammyBeauty
                                 .portfolio-caption-subheading.text-muted Инфраструктура
-                    //- .col-lg-4.col-sm-6.mb-4
+                    .col-lg-6.col-sm-6.mb-4
                         // Portfolio item 2
                         .portfolio-item
                             a.portfolio-link(data-bs-toggle='modal', href='#portfolioModal2')
                                 .portfolio-hover
                                     .portfolio-hover-content
                                         i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/portfolio/2.jpg', alt='...')
+                                img.img-fluid(src='assets/img/portfolio/Mixit/main.png', alt='...')
                             .portfolio-caption
-                                .portfolio-caption-heading Explore
-                                .portfolio-caption-subheading.text-muted Graphic Design
+                                .portfolio-caption-heading Mixit
+                                .portfolio-caption-subheading.text-muted Инфраструктура
                     //- .col-lg-4.col-sm-6.mb-4
                         // Portfolio item 3
                         .portfolio-item
@@ -241,8 +241,8 @@ html(lang='en')
                         a.link-dark.text-decoration-none(href='#!') Terms of Use
 
         // Portfolio Modals
-        include includes/portfolio-modal-1
-        //- include includes/portfolio-modal-2
+        include includes/portfolio-sammybeauty
+        include includes/portfolio-mixit
         //- include includes/portfolio-modal-3
 
         // Bootstrap core JS
