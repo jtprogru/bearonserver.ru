@@ -23,11 +23,17 @@ build: clean build-pug build-scss build-scripts build-assets
 clean:
 	node scripts/clean.js
 
+clean-all: clean
+	rm -rf node_modules/ dist/
+
 start: build
 	node scripts/start.js
 
-start-debug: build
+start-debug: npm-install build
 	node scripts/start-debug.js
 
 npm-install:
 	npm install
+
+npm-update:
+	npm update
