@@ -1,47 +1,57 @@
 
+section#learnings.page-section
+    .container
+        .row.text-center
+            h2.section-heading.text-uppercase Обучение
+            h3.section-subheading.text-muted Имеем богатый опыт и готовы поделиться им с вами.
+            // Грязный хак - не убирать, так смотрится красивее
+            .col-md-1
+            .col-md-5
+                span.fa-stack.fa-4x
+                    i.fas.fa-code.fa-stack-1x
+                h4.my-3 Разработка на Golang
+                p.text-muted
+                    | Научим программировать на Golang и поможем добавить интересные проекты в портфолио.
+                    | Пройдемся от самых основ до микросервисной архитектуры, научим
+                    | контейнеризировать свое приложение и базово запускать его в Kubernetes.
+            .col-md-5
+                span.fa-stack.fa-4x
+                    i.fas.fa-server.fa-stack-1x
+                h4.my-3 DevOps &amp; SRE
+                p.text-muted
+                    | Вспомним про банальные <code>ps auwx</code> и <code>atop</code>, а после
+                    | познакомимся с Zabbix и Prometheus и определимся "что и где лучше использовать",
+                    | а главное объясним "почему". Ну и траблшутинг инфраструктуры никто не отменял.
+            // Грязный хак - не убирать, так смотрится красивее
+            .col-md-1
+
 section#services.page-section
     .container
-        .text-center
-            h2.section-heading.text-uppercase Услуги
-            h3.section-subheading.text-muted Наша команда готова оказывать следующие услуги.
         .row.text-center
-            .col-md-3
+            h2.section-heading.text-uppercase Поможем бизнесу
+            h3.section-subheading.text-muted Поможем правильно определить проблему и реализуем ее решение.
+            .col-md-4
                 span.fa-stack.fa-4x
-                    i.fas.fa-circle.fa-stack-2x.text-primary
-                    i.fas.fa-code.fa-stack-1x.fa-inverse
-                h4.my-3 Обучение Golang
-                p.text-muted
-                    | Богатый практический опыт разработки на Golang как больших приложений с
-                    | микросервисной архитектурой, так и простых средств автоматизации
-                    | задач разработки и эксплуатации.
-            .col-md-3
-                span.fa-stack.fa-4x
-                    i.fas.fa-circle.fa-stack-2x.text-primary
-                    i.fas.fa-laptop.fa-stack-1x.fa-inverse
-                h4.my-3 Обучение DevOps/SRE
-                p.text-muted
-                    | Наша команда имеет богатый практический опыт в DevOps, SRE и построении
-                    | отказоустойчивой инфраструктуры для высоконагруженных веб-приложений
-                    | различной направленности и масштаба.
-            .col-md-3
-                span.fa-stack.fa-4x
-                    i.fas.fa-circle.fa-stack-2x.text-primary
-                    i.fas.fa-laptop-code.fa-stack-1x.fa-inverse
+                    i.fas.fa-laptop-code.fa-stack-1x
                 h4.my-3 Разработка Golang
                 p.text-muted
-                    | Наша команда готова реализовать проекты
-                    | различной направленности и масштаба, придерживаясь
-                    | лучших мировых практик в работе с кодом, а так же
-                    | помочь вашей команде внедрить данные практики для
-                    | облегчения собственной работы, уменьшения количества
-                    | ошибок и снижения несогласованности между членами команды.
-            .col-md-3
+                    | Готовы взяться за разработку микросервисной архитектуры, а если ее еще нет, то поможем
+                    | ее построить с применением лучших мировых практик в работе с кодом.
+                    | А главное – передадим готовый и задокументированный продукт.
+            .col-md-4
                 span.fa-stack.fa-4x
-                    i.fas.fa-circle.fa-stack-2x.text-primary
-                    i.fas.fa-terminal.fa-stack-1x.fa-inverse
-                h4.my-3 Dev&amp;Ops
+                    i.fas.fa-terminal.fa-stack-1x
+                h4.my-3 DevOps
                 p.text-muted
-                    | Опыт нашей команды позволит вам пережить резкий рост нагрузки без потерь и простоев,
-                    | вне зависимости от архитектуры вашего приложения и готовности команд разработки и эксплуатации.
-                    | Обучим ваших инженеров эксплуатации взаимодествию с командами разработки, а так же
-                    | поможем выстроить процессы, чтобы вы могли работить без нас.
+                    | Оптимизируем инфраструктуру под нужды вашего продукта.
+                    | Выстроим конвеер CI/CD и оптимизируем каждый из шагов во всех пайплайнах.
+                    | Составим внятную документацию с указанием всех проблем и типовыми решениями.
+            .col-md-4
+                span.fa-stack.fa-4x
+                    i.fas.fa-comments.fa-stack-1x
+                h4.my-3 Процессы
+                p.text-muted
+                    | Обучим ваших инженеров эксплуатации взаимодествию с командами разработки, а командам разработки
+                    | расскажем и покажем на примерах "что происходит с их кодом после <code>git commit -a -m "bug fix"</code>
+                    | и <code>git push origin master</code>".
+
