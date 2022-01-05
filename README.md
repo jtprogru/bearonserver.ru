@@ -1,5 +1,5 @@
 # [bearonserver.ru](https://bearonserver.ru)
-![Vercel](http://therealsujitk-vercel-badge.vercel.app/?app=bearonserver-ru)
+[![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=bearonserver-ru)](http://vercel.com/)
 [![Website](https://img.shields.io/website?label=Site&url=https%3A%2F%2Fbearonserver.ru)](https://bearonserver.ru)
 
 The website of the small company "Bear on Server".
