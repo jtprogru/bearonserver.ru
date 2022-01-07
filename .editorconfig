@@ -1,12 +1,22 @@
-# Editor configuration, see https://editorconfig.org
 root = true
 
 [*]
+end_of_line = lf
+insert_final_newline = true
 charset = utf-8
+
+[*.{js,py,pug,scss}]
 indent_style = space
 indent_size = 4
-insert_final_newline = true
 trim_trailing_whitespace = true
+
+[Makefile]
+indent_style = tab
+indent_size = 4
+
+[package.json]
+indent_style = space
+indent_size = 2
 
 [*.md]
 max_line_length = off
