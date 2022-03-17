@@ -29,7 +29,7 @@ clean-all: clean
 start: build
 	node scripts/start.js
 
-start-debug: npm-install build
+start-debug: build
 	node scripts/start-debug.js
 
 npm-install:
