@@ -49,6 +49,12 @@ list.draft:
 update.theme:
 	git submodule update --init --recursive --remote
 
+.PHONY: deploy
+## Deploy to Vercel
+deploy:
+	vercel build --prod --token=$VERCEL_TOKEN
+	vercel deploy --prebuilt --prod --token=$VERCEL_TOKEN
+
 .PHONY: help
 ## Show this help message
 help:
