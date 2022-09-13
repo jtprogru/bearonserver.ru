@@ -1,0 +1,142 @@
+---
+baseURL: "https://bearonserver.ru"
+theme: "bear"
+title: "Мишкин сервер"
+copyright: "Mihael (jtprogru) Savin / Commit: @@@COMMIT@@@"
+languageCode: "ru-RU"
+defaultContentLanguage: "ru"
+enableEmoji: true
+enablegitinfo: true
+forcesyncstatic: true
+paginate: 0
+canonifyURLs: true
+
+enableRobotsTXT: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+pluralizeListTitles: true
+
+params:
+  env: production
+  comments: false
+  label:
+    icon: /fav-light.svg
+    iconHeight: 35
+  assets:
+    favicon: /favicon.svg
+    favicon16x16: /favicon-16x16.svg
+    favicon32x32: /favicon-32x32.svg
+    apple_touch_icon: /apple-touch-icon.svg
+    safari_pinned_tab: /safari-pinned-tab.svg
+    disableFingerprinting: true
+
+  opengraph: true
+  twitter_cards: true
+  images: ["twitter-card.svg"]
+  defaultTheme: dark
+  disableThemeToggle: true
+  copyright: "Mihael (jtprogru) Savin"
+  dateFormat: "2006-01-02 15:04"
+  related: true
+  relatedMax: 0
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: true
+
+  profileMode:
+    enabled: true
+    title: "Мишкин сервер"
+    subtitle: "Просто страничка на Мишкином сервере"
+    imageUrl: "fav-light.svg"
+    imageTitle: "Bear on server"
+    imageWidth: 180
+    imageHeight: 180
+    buttons:
+      - name: "Поднять аптайм сервера"
+        url: "/donations/"
+
+  socialIcons:
+    - name: rss
+      url: 'https://jtprog.ru'
+    - name: telegram
+      url: 'https://ttttt.me/jtprogru_chat'
+    - name: twitter
+      url: 'https://twitter.com/jtprogru'
+    - name: vkcom
+      url: "https://vk.com/jtprogru_channel"
+    - name: youtube
+      url: 'https://www.youtube.com/channel/UCuGKtGjbVk-BtpLM1I6Yzrg'
+    - name: github
+      url: 'https://github.com/jtprogru'
+    - name: mastodon
+      url: 'https://mas.to/@jtprogru'
+    - name: buymeacoffee
+      url: 'https://www.buymeacoffee.com/jtprogru'
+    - name: dev
+      url: 'https://dev.to/jtprogru'
+    - name: discord
+      url: 'https://discord.gg/zS2gNwt2Ka'
+    - name: medium
+      url: 'https://jtprogru.medium.com'
+    - name: linkedin
+      url: 'https://www.linkedin.com/in/jtprogru'
+    - name: unsplash
+      url: 'https://unsplash.com/@jtprogru'
+    - name: keybase
+      url: 'https://keybase.io/jtprog'
+    - name: soundcloud
+      url: 'https://soundcloud.com/jtprogru/'
+    - name: cv
+      url: "https://savinmi.ru"
+
+  outputs:
+    home:
+      - "HTML"
+      - "JSON"
+    section:
+      - "HTML"
+
+  permalinks:
+    post: "/:slug/"
+
+
+caches:
+  assets:
+    dir: ":resourceDir/_gen"
+    maxAge: -1
+  getcsv:
+    dir: ":cacheDir/:project"
+    maxAge: -1
+  getjson:
+    dir: ":cacheDir/:project"
+    maxAge: -1
+  images:
+    dir: ":resourceDir/_gen"
+    maxAge: -1
+  modules:
+    dir: ":cacheDir/modules"
+    maxAge: -1
+
+module:
+  mounts:
+    - source: content
+      target: content
+    - source: static
+      target: static
+    - source: layouts
+      target: layouts
+    - source: data
+      target: data
+    - source: assets
+      target: assets
+    - source: i18n
+      target: i18n
+    - source: archetypes
+      target: archetypes
+

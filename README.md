@@ -1,34 +1,27 @@
 # [bearonserver.ru](https://bearonserver.ru)
-[![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=bearonserver-ru)](http://vercel.com/)
-[![Website](https://img.shields.io/website?label=Site&url=https%3A%2F%2Fbearonserver.ru)](https://bearonserver.ru)
 
-The website of the small company "Bear on Server".
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/jtprogru/bearonserver.ru/CI?label=CI)
+![GitHub](https://img.shields.io/github/license/jtprogru/bearonserver.ru)
+![GitHub issues](https://img.shields.io/github/issues/jtprogru/bearonserver.ru?style=plastic)
 
-## Deploy
+Просто страничка-визитка.
 
-The deployment occurs automatically by commit to the main branch due to the fact that this repository is connected to the project in Vercel.
+Ссылки:
 
-## Develop
-
-For local development please do next following steps.
-
-### Clone repo
-
-```shell
-git clone https://github.com/jtprogru/bearonserver.ru.git
-```
-
-### Run debug 
-
-```shell
-make 
-# or
-make start-debug
-```
-
-## Requirements
-
-- [NodeJS](https://nodejs.org/en/) (current used version `v17.3.0`)
-- [GNU make](https://en.wikipedia.org/wiki/Make_(software)) (current used version `3.81`)
-- Any text editor
-
+- [Blog](https://jtprog.ru)
+- [Telegram Chat](https://ttttt.me/jtprogru_chat)
+- [Twitter](https://twitter.com/jtprogru)
+- [VK]("https://vk.com/jtprogru_channel")
+- [YouTube](https://www.youtube.com/channel/UCuGKtGjbVk-BtpLM1I6Yzrg)
+- [GitHub](https://github.com/jtprogru)
+- [Mastodon](https://mas.to/@jtprogru)
+- [BuyMeACoffee](https://www.buymeacoffee.com/jtprogru)
+- [DEV.to](https://dev.to/jtprogru)
+- [Discord](https://discord.gg/zS2gNwt2Ka)
+- [Medium](https://jtprogru.medium.com)
+- [LinkedIn](https://www.linkedin.com/in/jtprogru)
+- [Unsplash](https://unsplash.com/@jtprogru)
+- [Keybase](https://keybase.io/jtprog)
+- [SoundCloud](https://soundcloud.com/jtprogru/)
+- [CV (ru)](https://savinmi.ru)
+- [CV (en)](https://s11l.me)

@@ -1,0 +1,25 @@
+User-agent: *
+Disallow: /vkontakte/
+Disallow: /facebook/
+Disallow: /gplus/
+Disallow: /telegram/
+Disallow: /twitter/
+Disallow: /digitalocean/
+Disallow: */trackback
+Disallow: */comment
+Disallow: /?p=
+Disallow: /?share=
+Disallow: /not-found/
+Disallow: /ip/
+
+
+User-agent: Yandex
+Disallow:
+Clean-param: p
+Clean-param: share
+
+Crawl-delay: 10
+
+Sitemap: https://bearonserver.ru/sitemap.xml
+
+Host: bearonserver.ru
