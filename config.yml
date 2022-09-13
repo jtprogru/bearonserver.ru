@@ -62,7 +62,7 @@ params:
         url: "/donations/"
 
   socialIcons:
-    - name: rss
+    - name: blog
       url: 'https://jtprog.ru'
     - name: telegram
       url: 'https://ttttt.me/jtprogru_chat'
