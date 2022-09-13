@@ -8,7 +8,7 @@ defaultContentLanguage: "ru"
 enableEmoji: true
 enablegitinfo: true
 forcesyncstatic: true
-paginate: 0
+paginate: 1
 canonifyURLs: true
 
 enableRobotsTXT: true
