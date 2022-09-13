@@ -99,8 +99,10 @@ params:
     home:
       - "HTML"
       - "JSON"
+      - "RSS"
     section:
       - "HTML"
+      - "RSS"
 
   permalinks:
     post: "/:slug/"
