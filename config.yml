@@ -26,11 +26,11 @@ params:
     icon: /fav-light.svg
     iconHeight: 35
   assets:
-    favicon: /favicon.svg
-    favicon16x16: /favicon-16x16.svg
-    favicon32x32: /favicon-32x32.svg
-    apple_touch_icon: /apple-touch-icon.svg
-    safari_pinned_tab: /safari-pinned-tab.svg
+    favicon: /fav-light.svg
+    favicon16x16: /fav-light.svg
+    favicon32x32: /fav-light.svg
+    apple_touch_icon: /fav-light.svg
+    safari_pinned_tab: /fav-light.svg
     disableFingerprinting: true
 
   opengraph: true
