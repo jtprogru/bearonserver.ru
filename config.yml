@@ -2,7 +2,7 @@
 baseURL: "https://bearonserver.ru"
 theme: "bear"
 title: "Мишкин сервер"
-copyright: "Mihael (jtprogru) Savin"
+copyright: "&copy; Mihael (jtprogru) Savin"
 languageCode: "ru-RU"
 defaultContentLanguage: "ru"
 enableEmoji: true
