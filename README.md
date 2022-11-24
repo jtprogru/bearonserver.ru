@@ -10,8 +10,9 @@
 
 - [Blog](https://jtprog.ru)
 - [Telegram Chat](https://ttttt.me/jtprogru_chat)
+- [Telegram Channel](https://ttttt.me/jtprogru_channel)
 - [Twitter](https://twitter.com/jtprogru)
-- [VK]("https://vk.com/jtprogru_channel")
+- [VK](https://vk.com/jtprogru_channel)
 - [YouTube](https://www.youtube.com/channel/UCuGKtGjbVk-BtpLM1I6Yzrg)
 - [GitHub](https://github.com/jtprogru)
 - [Mastodon](https://mas.to/@jtprogru)
@@ -25,3 +26,4 @@
 - [SoundCloud](https://soundcloud.com/jtprogru/)
 - [CV (ru)](https://savinmi.ru)
 - [CV (en)](https://s11l.me)
+
