@@ -1,6 +1,7 @@
 # [bearonserver.ru](https://bearonserver.ru)
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/jtprogru/bearonserver.ru/CI?label=CI)
+[![GitHub Actions Vercel Preview Deployment](https://github.com/jtprogru/bearonserver.ru/actions/workflows/vercel-dev.yml/badge.svg?branch=develop)](https://github.com/jtprogru/bearonserver.ru/actions/workflows/vercel-dev.yml)
+[![GitHub Actions Vercel Production Deployment](https://github.com/jtprogru/bearonserver.ru/actions/workflows/vercel-prod.yml/badge.svg?branch=main)](https://github.com/jtprogru/bearonserver.ru/actions/workflows/vercel-prod.yml)
 ![GitHub](https://img.shields.io/github/license/jtprogru/bearonserver.ru)
 ![GitHub issues](https://img.shields.io/github/issues/jtprogru/bearonserver.ru?style=plastic)
 
