@@ -23,7 +23,7 @@ params:
   env: production
   comments: false
   label:
-    icon: /fav-light.svg
+    icon: /fav-dark.svg
     iconHeight: 35
   assets:
     favicon: /fav-light.svg
@@ -36,7 +36,7 @@ params:
   opengraph: true
   twitter_cards: true
   images: ["twitter-card.svg"]
-  defaultTheme: dark
+  defaultTheme: light
   disableThemeToggle: true
   copyright: "Mihael (jtprogru) Savin"
   dateFormat: "2006-01-02 15:04"
@@ -53,7 +53,7 @@ params:
     enabled: true
     title: "Мишкин сервер"
     subtitle: "Просто страничка на Мишкином сервере"
-    imageUrl: "fav-light.svg"
+    imageUrl: "fav-dark.svg"
     imageTitle: "Bear on server"
     imageWidth: 180
     imageHeight: 180
