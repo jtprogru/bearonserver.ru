@@ -97,6 +97,10 @@ params:
     - name: cv
       url: "https://savinmi.ru"
 
+  analytics:
+    yandex:
+      SiteVerificationTag: "bad51baec1037793"
+
   outputs:
     home:
       - "HTML"
