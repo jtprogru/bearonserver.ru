@@ -1,5 +1,5 @@
 ---
-author: jtprog
+author: jtprogru
 date: "2020-09-02T21:36:39+03:00"
 id: 283
 slug: /privacy-policy/

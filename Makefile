@@ -7,6 +7,9 @@ name="00000000-init"
 host="0.0.0.0"
 port="1313"
 config="config.yml"
+HOME=/Users/jtprogru
+
+include ${HOME}/.env
 
 .PHONY: build
 ## Build static site
@@ -52,8 +55,8 @@ update.theme:
 .PHONY: deploy
 ## Deploy to Vercel
 deploy:
-	vercel build --prod --token=$VERCEL_TOKEN
-	vercel deploy --prebuilt --prod --token=$VERCEL_TOKEN
+	vercel build --prod --token=${VERCEL_TOKEN}; \
+	vercel deploy --prebuilt --prod --token=${VERCEL_TOKEN}
 
 .PHONY: help
 ## Show this help message

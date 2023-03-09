@@ -1,5 +1,5 @@
 ---
-author: jtprog
+author: jtprogru
 date: "2020-09-01T21:35:54+03:00"
 id: 263
 slug: /chat-rules/
