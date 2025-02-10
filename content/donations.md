@@ -19,31 +19,21 @@ type: page
 - Мне не очень хочется делать посредственный контент, потому что его и так в интернете очень много;
 - У меня нет особого стимула для того, чтобы чаще публиковать статьи – на моем сайте рекламы нету;
 
-### Через YooMoney (Яндекс.Деньги)
+### T-Bank
 
-С карты любого российского банка или прям с кошелька YooMoney (Яндекс.Деньги). Вот ссылочка для переводов [YooMoney](https://yoomoney.ru/to/410011675062464/).
-
-ID: **4100 1167 5062 464**
-
-### Переводом на карту
-
-Просто скинуть на карту любую сумму, которую считаешь нужной и правильной!
-
-ID: **4048 4150 3282 5024**
+Обычный [открытый сбор](https://www.tbank.ru/cf/6pTjRrvOfvZ), через который ты можешь закинуть столько, сколько считаешь нужным.
 
 ### Boosty
 
 Это альтернатива Patreon с альтернативными ценами и иногда альтернативным контентом.
 
-Прямая ссылка на [**страничку**](https://boosty.to/jtprogru)
+Прямая ссылка на страничку [**Boosty**](https://boosty.to/jtprogru/donate).
 
 ### Crypto
 
-- ETH: **0x41F5c91a1b4ff55edB56dc367f4483110f8694bf**
 - ETH: **0xC58c596dc159Adfe606af60F226d97aCd82EA228**
-- TRX: **TKFcw7Bb6fBC3kfy3f4y8L2vfwZydiH3Ti**
 - BTC: **bc1qd08hmrq0vl8c2dv69adet46wkww4epphlem0y6**
-- TON: **EQDH-EqzXT69-PyXYUSIxncXeSj0MM7HXnBxUIJ_Md81S7i4**
+- TON: **UQCQEPp8lWk54NqjDoMwpojWTuMcqKam3pBw9Kbh7tFkbGZV**
 
 ### Другие способы
 
@@ -60,6 +50,6 @@ ID: **4048 4150 3282 5024**
 - [DigitalOcean](https://m.do.co/c/915531dbfa41)
 - [Fozzy](https://fozzy.com/aff.php?aff=1116)
 - [SmartApe](http://www.smartape.ru/?partner=52369)
-- [Boosty](https://boosty.to/jtprogru/ref)
+- [Boosty](https://boosty.to/jtprogru/donate)
 
 **СПАСИБО ТЕБЕ, `%username%`!**
